@@ -14,7 +14,9 @@
             android:id="@+id/btnData"
             android:text="데이터 불러오기"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview"
@@ -31,7 +33,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor"/>
 
     </LinearLayout>
 </LinearLayout>

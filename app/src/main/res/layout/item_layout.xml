@@ -10,18 +10,21 @@
         android:id="@+id/itemNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceMedium" />
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/entpNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceSmall" />
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/etcOtcCodeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceSmall" />
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="bold"/>
 
 </LinearLayout>

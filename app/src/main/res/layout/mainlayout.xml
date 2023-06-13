@@ -14,11 +14,13 @@
 
         <Button
             android:id="@+id/button0"
-            android:layout_width="208dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="약 검색" />
+            android:text="약 검색"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor"/>
 
 
 
@@ -49,7 +51,9 @@
             android:layout_height="wrap_content"
             android:text="지도"
             android:layout_weight="1"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor"/>
 
         <Button
             android:id="@+id/button2"
@@ -57,7 +61,9 @@
             android:layout_height="wrap_content"
             android:text="약 등록"
             android:layout_weight="1"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor" />
 
         <Button
             android:id="@+id/button3"
@@ -65,7 +71,9 @@
             android:layout_height="wrap_content"
             android:text="복용일지"
             android:layout_weight="1"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor" />
 
     </LinearLayout>
 

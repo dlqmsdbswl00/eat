@@ -18,15 +18,18 @@
             android:id="@+id/edit"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:hint="enter text to search"/>
+            android:hint="enter text to search"
+            android:textColor="@color/themecolor"/>
 
         <Button
             android:id="@+id/button"
-            android:layout_width="100dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="search"
             android:textSize="12sp"
-            android:onClick="mOnClick"/>
+            android:onClick="mOnClick"
+            android:textStyle="bold"
+            android:backgroundTint="@color/themecolor"/>
 
     </LinearLayout>
 
@@ -48,6 +51,8 @@
         android:id="@+id/button4"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Button"
+        android:textStyle="bold"
+        android:backgroundTint="@color/themecolor"/>
 
 </LinearLayout>
